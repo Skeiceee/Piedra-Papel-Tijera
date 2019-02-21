@@ -1,3 +1,3 @@
 # PiedraPapelTijera
-![Ejemplo](https://i.imgur.com/v3nfRUX.gifv)
+![Ejemplo](https://i.imgur.com/v3nfRUX.gif)
 [Demo](piedrapapeltijera.netlify.com)
