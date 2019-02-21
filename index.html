@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+    <link 
+        rel="stylesheet" 
+        href="./css/style.css">
+    <link 
+        rel="stylesheet" 
+        href="./css/animate.css">
+    <title>Piedra, Papel o Tijera</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-5col-lg-6 mx-auto mt-4">
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-5 col-lg-2">
+                                    <a id="papel">
+                                        <img id="img_papel" class="zoomInLeft animated" src="./img/papel.png" alt="Papel">
+                                    </a>
+                                    <a id="piedra">
+                                        <img id="img_piedra" class="zoomInLeft animated" src="./img/piedra.png" alt="Piedra">
+                                    </a> 
+                                    <a id="tijera">
+                                        <img id="img_tijera" class="zoomInLeft animated" src="./img/tijera.png" alt="Tijera">
+                                    </a>  
+                                </div>
+                                <div class="col-md col-sm col-lg">
+                                    <div>
+                                        <div id="resultado" class="text-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
