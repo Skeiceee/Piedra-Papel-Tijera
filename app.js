@@ -46,31 +46,19 @@ function drawResultado(res, jugador, oponente){
     spanMatch.attr('id', 'spanMatch');
     div.addClass('zoomInUp animated');
 
+    divMatch.append(img_jugador);
+    divMatch.append(img_versus);
+    divMatch.append(img_oponente);
     if (res === 0) {
-        divMatch.append(img_jugador);
-        divMatch.append(img_versus);
-        divMatch.append(img_oponente);
         spanMatch.text('Empate');
-        div.append(spanMatch);
-        divMatch.append(div);
-        container.html(divMatch);
     } else if (res === 1){
-        divMatch.append(img_jugador);
-        divMatch.append(img_versus);
-        divMatch.append(img_oponente);
         spanMatch.text('Ganaste');
-        div.append(spanMatch); 
-        divMatch.append(div);
-        container.html(divMatch);
     }else if(res === 2){
-        divMatch.append(img_jugador);
-        divMatch.append(img_versus);
-        divMatch.append(img_oponente);
         spanMatch.text('Perdiste');
-        div.append(spanMatch);
-        divMatch.append(div);
-        container.html(divMatch);
     }
+    div.append(spanMatch);
+    divMatch.append(div);
+    container.html(divMatch);
 };
 
 
