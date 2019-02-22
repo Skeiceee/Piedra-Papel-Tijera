@@ -37,12 +37,12 @@ function drawResultado(res, jugador, oponente){
     let divMatch = $(document.createElement('div'));
     let spanMatch = $(document.createElement('span'));
     let div = $(document.createElement('div'))
-    img_jugador.attr('src', './img/'+(jugador === 1 ? 'papel' : (jugador === 2 ? 'piedra' : 'tijera'))+'.png');
-    img_jugador.addClass('zoomInLeft animated')
-    img_oponente.attr('src', './img/'+(oponente === 1 ? 'papel' : (oponente === 2 ? 'piedra' : 'tijera'))+'.png');
-    img_oponente.addClass('zoomInRight animated');
-    img_versus.attr('src', './img/vs.png');
-    img_versus.addClass('zoomInDown animated');
+    img_jugador.attr('src', './img/'+(jugador === 1 ? 'papel' : (jugador === 2 ? 'piedra' : 'tijera'))+'.png')
+               .addClass('zoomInLeft animated');
+    img_oponente.attr('src', './img/'+(oponente === 1 ? 'papel' : (oponente === 2 ? 'piedra' : 'tijera'))+'.png')
+                .addClass('zoomInRight animated');
+    img_versus.attr('src', './img/vs.png')
+              .addClass('zoomInDown animated');
     spanMatch.attr('id', 'spanMatch');
     div.addClass('zoomInUp animated');
 
